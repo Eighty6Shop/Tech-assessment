@@ -14,7 +14,7 @@ Use a static token and protect all the endpoints. If that static token is not pr
 
 ### Store data from Indego
 
-An endpoints which downloads fresh data from [Indego GeoJSON station status API](https://www.rideindego.com/stations/json/) and stores it inside MongoDB.
+An endpoints which downloads fresh data from [Indego GeoJSON station status API](https://www.rideindego.com/stations/json/) and stores it inside Postgres.
 
 ```bash
 # this endpoint will be trigger every hour to fetch the data and insert it in the mongo database
